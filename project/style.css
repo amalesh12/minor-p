@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border:border-box;
+}
+/* body{
+    background-image: url("https://th.bing.com/th/id/OIP.AyIMzWOrsvaev8Bj_6zq7wAAAA?rs=1&pid=ImgDetMain"); */
+body{
+    background-color: gray;
+}
+/* navigation button */
+.navbar{
+    height: 70px;
+    background-color: #212121;
+    color: rgb(26, 117, 49);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    font-size:x-large;
+    position: relative;
+    right: 30px;
+}
+.logo{ display: flex;
+        /* font-family:"Dancing Script", cursive; */
+        font-family: 'Times New Roman', Times, serif;
+        font-variant:small-caps;
+        align-items: center;
+    height: 50px;
+    width: 120%;
+    color: #e4eaea;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white ;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin: 15px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* SEARCH BAR*/
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 450px;
+    height: 40px;
+    border-radius:4px;;
+}
+.search-select{
+    background-color:#f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: aquamarine;
+    color:#0f1111;
+}
+/* sign-in button */
+
+.button-64 {
+  align-items:center;
+  background-image: linear-gradient(144deg,#92b7e9, #7caacf 50%);
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 1rem;
+  justify-content:center;
+  line-height: 0.3em;
+  max-width: auto;
+  min-width: 45px;
+  padding: 2px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline:0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 10px;
+  width:auto ;
+  height:auto ;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 500px) {
+  .button-64 {
+    font-size: 30px;
+    min-width: auto;
+  }
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+
+
+.arrow{
+    position: relative;
+    right: 40px;
+    color: whitesmoke;
+}
+
+/* CART ICON */
+.nav-cart{
+    font-size: 30px;
+    position: relative;
+    right: 40px;
+    color: whitesmoke;
+}
+.nav-manu{
+    font-size: 30px;
+    position: relative;
+    right: 80px;
+    color: whitesmoke;
+}
+
+.nav-baar{
+    position: relative;
+    left: 7px;
+    font-size: 35px;
+    color: rgb(230, 223, 223);
+}
+
+/* main sliding section */
+ .main-section{
+     background-image: url("https://echelondesign.com/wp-content/uploads/2018/06/img-blog-handcraftedBODY01.jpg"); 
+height:540px;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.main-msg{
+    background-color: white;
+    color: black;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.70rem;
+    margin-bottom: 25px;
+    width: 95%;
+}
+.main-msg a{
+    color: #850000;
+}
+/*
+ shopping categories section
+.shop-section{
+    display: flex;
+     flex-wrap:wrap ; 
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    border: 2px solid black;
+    height: 300px;
+    width: 16%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 2PX;
+}
+ .box-img{
+    height:300;
+    
+    %;
+    background-size:cover;
+    background-image:none;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+} */
+
+
+
+.footer-sec{
+    height: 70px;
+    background-color: #0f1111;
+    color: rgb(26, 117, 49);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
